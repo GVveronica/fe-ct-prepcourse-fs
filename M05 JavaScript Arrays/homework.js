@@ -9,8 +9,8 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
-   const ultimoElemento = array.length - 1
-   return array[ultimoElemento];
+    
+   return array[array.length - 1];
 }
 
 function obtenerLargoDelArray(array) {
@@ -200,20 +200,12 @@ function breakStatement(num) {
    // la ejecución y retornar el string: "Se interrumpió la ejecución".
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
-   let aux = [];
-   let aux2 = false;
-   for( let i = 0; i <10; i++){
-      num += 2
-      aux.push(num + 2 );
-      if (num === i){
-         aux2 = true;
-         break;
-      }
+   var nuevoArr = [];
+   for ( var i = 0; i < 10; i +2 ){
+       
    }
-   if (aux2){
-     aux =
-   }
-}
+ } 
+
 
 
 function continueStatement(num) {
